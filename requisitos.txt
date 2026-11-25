@@ -1,0 +1,40 @@
+Librería Páginas Andinas - Requisitos
+Integrantes: ______________________ / ______________________
+
+REQUISITOS FUNCIONALES
+RF-01 Registrar productos de los tres tipos (libro de papel, libro digital, papelería).
+      Origen: "Quiero poder registrar productos nuevos"
+RF-02 Ver la lista de productos en una tabla.
+      Origen: "y ver la lista de todo lo que tengo."
+RF-03 Buscar productos por nombre.
+      Origen: "Necesito encontrar rápido un producto por su nombre."
+RF-04 Registrar una venta para un cliente con varios productos y varias unidades de cada uno.
+      Origen: "Una venta es para un cliente y puede tener varios productos y varias unidades de cada uno."
+RF-05 Mostrar el total a pagar con el desglose (subtotal, descuento, IVA).
+      Origen: "Al final quiero ver cuánto paga. Mi contador, además, quiere ver de dónde sale cada centavo."
+
+REGLAS DE NEGOCIO
+RN-01 El código de producto no se puede repetir.
+      Origen: "Una vez tuve dos libros distintos con el mismo código y fue un desastre"
+RN-02 El formato del libro digital solo puede ser PDF o EPUB.
+      Origen: "el formato, que puede ser PDF o EPUB."
+RN-03 El libro digital no maneja stock (ilimitado).
+      Origen: "Esos nunca se me acaban, ¿no? Es el mismo archivo para cada cliente."
+RN-04 No se puede vender más de lo que hay en stock; al vender se descuenta.
+      Origen: "Lo que más me duele es vender algo que no tengo."
+RN-05 La búsqueda es por parte del nombre y no distingue mayúsculas.
+      Origen: "'quiero el de la soledad'. Nadie se acuerda del nombre completo... con mayúsculas o sin mayúsculas."
+RN-06 Los clientes vienen precargados.
+      Origen: "con tenerlos cargados en el programa me basta."
+RN-07 Clientes socios tienen 10% de descuento solo en libros (no en papelería).
+      Origen: "A ellos les hago el 10 % de descuento... En los cuadernos y esferos no"
+RN-08 Los libros no pagan IVA; la papelería paga 15%.
+      Origen: "los libros no pagan IVA, ni los de papel ni los digitales, pero la papelería sí, el 15 %."
+RN-09 Interfaz gráfica sencilla con botones grandes, sin consola.
+      Origen: "Botones grandes, nada de pantallas negras con letras."
+
+REGISTRO DE PROMPTS
+(completar: prompt, quién lo usó, y algo que la IA hizo mal y cómo se corrigió)
+1.
+2.
+3.
